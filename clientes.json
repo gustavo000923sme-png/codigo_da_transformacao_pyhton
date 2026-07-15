@@ -1,0 +1,12 @@
+{
+    "cliente_1": {
+        "nome": "Carlos Souza",
+        "email": "carlos@email.com",
+        "ativo": true
+    },
+    "cliente_2": {
+        "nome": "Beatriz Lima",
+        "email": "beatriz@email.com",
+        "ativo": false
+    }
+}
