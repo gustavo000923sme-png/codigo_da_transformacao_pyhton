@@ -4,12 +4,12 @@ Módulo 06 - Manipulação de arquivos em python
 neste módulo, eu irei fazer 3 exercícios de manipulação de arquivos em python
 
 '''
-
 import shutil
 import os
 
-arquivo_origem = "dados.txt"
+arquivo_origem = "dados.txt" 
 pasta_backup = "backup_destino"
+
 
 if not os.path.exists(pasta_backup):
     os.makedirs(pasta_backup)
