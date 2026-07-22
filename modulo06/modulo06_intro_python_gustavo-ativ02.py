@@ -13,7 +13,7 @@ clientes = {
 }
 
 with open("clientes.json", "w", encoding="utf-8") as arquivo_json:
-    # indent=4 serve para deixar o arquivo visualmente organizado ("bonito")
+
     json.dump(clientes, arquivo_json, indent=4, ensure_ascii=False)
 print("Dicionário salvo em clientes.json!")
 
