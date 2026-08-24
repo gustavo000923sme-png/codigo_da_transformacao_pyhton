@@ -11,7 +11,7 @@ import utilidades
 
 print("=== ATIVIDADE 1: Testando utilidades.py ===")
 print("Soma (10 + 5):", utilidades.somar(10, 5))
-print("Subtração (10 - 5):", l.subtrair(10, 5))
+print("Subtração (10 - 5):", 1.subtrair(10, 5))
 print("Potência (2 ^ 3):", utilidades.potencia(2, 3))
 print()
 
