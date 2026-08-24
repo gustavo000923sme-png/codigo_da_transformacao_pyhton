@@ -1,6 +1,6 @@
-"Aula 07 - Módulos e pacotes" 
-"Nesse módulo iremos fazer um arquivo chamado ultilodades.py para completar as atividades"
-
+'''Aula 7 - Módulos e pacotes
+Nesse módulo iremos fazer um arquivo chamado ultilodades.py para completar as atividades
+'''
 
 import random
 import math
