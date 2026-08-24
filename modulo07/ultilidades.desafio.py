@@ -1,13 +1,13 @@
 from faker import Faker
 
 
-import utilidades
-import utilidades_licao2
+import ultilidades
+import ultilidades_licao2
 
 
 print("=== 1. MATEMÁTICA ===")
-print("Soma (10 + 5):", utilidades.somar(10, 5))
-print("Potência (2 ^ 3):", utilidades.potencia(2, 3))
+print("Soma (10 + 5):", ultilidades.somar(10, 5))
+print("Potência (2 ^ 3):", ultilidades.potencia(2, 3))
 print()
 
 
@@ -19,4 +19,4 @@ print("Cidade:", fake.city())
 print()
 
 # Atividade 3: Executando o jogo do outro arquivo
-utilidades_licao2.jogar()
+ultilidades_licao2.jogar()
