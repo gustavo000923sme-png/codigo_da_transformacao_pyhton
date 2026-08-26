@@ -1,6 +1,8 @@
 '''
 Módulo 07 - Jogo da adivinhação (Modo Difícil)
 '''
+#Usamos a bliblioteca random para criar um jogo de aleatóriedade para a nossa diversão
+
 import random
 
 numero_secreto = random.randint(1, 100)
@@ -11,6 +13,8 @@ acertou = False
 print("=== JOGO DA ADIVINHAÇÃO - MODO DIFÍCIL ===")
 print(f"Adivinhe o número secreto entre 1 e 100! Você tem {limite_tentativas} tentativas.\n")
 
+#Usamos o int para fazer um número de tentativas, é somente um números inteiros podem ser mandados,
+#usando os chutes entre os números de 1 a 100 e caso os valor seja 
 while not acertou and tentativas < limite_tentativas:
     try:
         chute = int(input(f"Tentativa {tentativas + 1}/{limite_tentativas} - Digite seu palpite: "))

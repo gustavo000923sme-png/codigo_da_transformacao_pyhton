@@ -4,6 +4,8 @@ Programador: as variaveis, serão inseridas no app - BACK-End
 Dev: existe a interação com o usuario - Web Design (Front-End)
 
 '''
+#Usamos as blibliotecas datetime que ajuda na hora de usar data e horas ou números falsos
+#e usamos o faker que cria algo falso como exemplo uma pessoa, cpf, cidade e etc.
 import utilidades
 import datetime
 from faker import Faker
@@ -11,7 +13,8 @@ from faker import Faker
 
 fake = Faker('pt_BR')
 
-
+#Criamos prints para fazer e-mails de mentira. Nos próximos prints a partir da linha 33
+#iremos fazer algo como uma calculadora que responda contas matemáticas.
 print('***Dados Criados -  Prova de Matemática***')
 print(f'Nome de Mentira: {fake.name()}')
 print(f'E-Mail de Mentira: {fake.email()}')
